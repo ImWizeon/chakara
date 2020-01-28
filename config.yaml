@@ -1,20 +1,20 @@
-title: Stackbit Fjord Theme
+title: Chakara
 baseURL: /
 params:
-  palette: yellow
-  header:
-    title: Fjord
-    tagline: Minimal and clean blog theme
-    logo_img: images/logo.png
-    bg_img: images/header-bg.jpg
-    has_nav: true
-    has_social: true
   footer:
     content: '&copy; All rights reserved.'
     links:
-      - text: Made with Stackbit
+      - new_window: true
+        text: Made with Stackbit
         url: 'https://www.stackbit.com'
-        new_window: true
+  header:
+    bg_img: images/header-bg.jpg
+    has_nav: true
+    has_social: true
+    logo_img: images/logo.png
+    tagline: Stackbit Test site
+    title: Chakara
+  palette: red
 disableKinds:
   - RSS
   - taxonomy
